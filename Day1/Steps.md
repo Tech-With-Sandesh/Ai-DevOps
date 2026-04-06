@@ -285,9 +285,3 @@ You give a goal → Agent thinks (Gemini) → Picks a tool → Runs it
 This is called the **ReAct loop** — the foundation of all AI agents.
 
 ---
-
-## What's Next — Day 2
-- Agent memory — remember previous actions
-- Multi-tool chaining — agents calling other agents
-- GitHub Actions integration — agent triggers CI/CD
-- Slack alerts — agent sends findings to Slack
