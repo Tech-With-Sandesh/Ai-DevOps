@@ -302,26 +302,3 @@ Same outcome. Fraction of the effort.
 | stdio transport | How agent communicates with MCP server locally |
 
 ---
-
-## What's Next — Day 3
-
-Day 2 was one agent doing GitHub operations.
-
-Day 3 is two agents working together:
-
-```
-Orchestrator Agent
-      │
-      ├── GitHub Agent  ←  monitors Actions workflows
-      │
-      └── AWS Agent     ←  manages infrastructure
-
-Real scenario:
-GitHub Actions workflow fails
-→ GitHub agent detects it
-→ Tells AWS agent
-→ AWS agent rolls back the deployment
-→ Zero human intervention
-```
-
-That's multi-agent systems. Coming in Day 3.
